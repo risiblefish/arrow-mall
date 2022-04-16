@@ -3,26 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>arrow-mall-parent</artifactId>
+        <artifactId>arrow-service</artifactId>
         <groupId>sean.yu</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arrow-service</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>arrow-oms</module>
-        <module>arrow-pms</module>
-        <module>arrow-ums</module>
-        <module>arrow-pay</module>
-        <module>arrow-cart</module>
-        <module>arrow-dictionary</module>
-        <module>arrow-sms</module>
-        <module>arrow-cms</module>
-        <module>arrow-tenant</module>
-    </modules>
+    <artifactId>arrow-tenant</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
